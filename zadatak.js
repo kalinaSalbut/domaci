@@ -1,8 +1,6 @@
-var a = 4;
-var b = 6;
-var c = 8;
 
-function resenje(){
+
+function resenje(a, b, c){
     if (a > 0) {
         console.log(b+c);
     }else{
@@ -10,4 +8,4 @@ function resenje(){
     };
 };
 
-resenje(a);
+resenje(4, 6, 8);
